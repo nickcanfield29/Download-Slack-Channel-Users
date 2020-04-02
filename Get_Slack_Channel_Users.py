@@ -51,10 +51,10 @@ print("LIST OF", CHANNEL_NAME, " CHANNELS")
 print("**********************")
 
 for channel in channel_list:
-    #channel = find_channel(channel_list)
 
     if is_matching_channel(channel):
         print(channel['name'])
+        
 print("**********************")
 print("**********************")
 
